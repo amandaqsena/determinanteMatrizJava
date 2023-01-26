@@ -1,5 +1,9 @@
 package matrixDeterminant;
 
+/**
+ * @author amandasena97@gmail.com
+ */
+
 public class Matrix {
     
     public double[][] values;

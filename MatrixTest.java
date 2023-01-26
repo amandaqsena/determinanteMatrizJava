@@ -1,5 +1,7 @@
 package matrixDeterminant;
-
+/**
+ * @author amandasena97@gmail.com
+ */
 public class MatrixTest {
     public static void main(String[] args) {
         double[][] valores0 = {
