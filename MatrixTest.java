@@ -28,6 +28,29 @@ public class MatrixTest {
         m2.setValues(valores2);
 		System.out.println(m2.getDeterminant());
         
+        double[][] valores3 = {
+            {3,0},
+            {0,3},
+        };
+
+        Matrix m3 = new Matrix();
+        m3.setValues(valores3);
+		System.out.println(m3.getDeterminant());
+
+        Matrix m4 = m3.times(m2);
+        System.out.println(m4.getDeterminant());
+
+        double[][] valores5 = {
+            {2,0},
+            {0,3},
+        };
+
+        Matrix m5 = new Matrix();
+        m5.setValues(valores5);
+		System.out.println(m5.getDeterminant());
+
+        Matrix m6 = m4.times(m5);
+        System.out.println(m6.getDeterminant());
 
     }
 }
